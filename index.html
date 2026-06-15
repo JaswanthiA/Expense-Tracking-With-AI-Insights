@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracking ET</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class = "page-layout">
+
+  <!-- nav -->
+  <header class="top-bar">
+    <div class="box-container">
+      <div class="logo">
+        <div class="logo-gif-box">
+          <img src="logo2.gif" alt="Finsight Animated Logo" class="logo-img">
+        </div>
+      </div>
+    
+     <nav class="nav-links">
+        <a href="#features" class="nav-item">Features</a>
+        <a href="#workflow" class="nav-item">How it works</a>
+        <a href="#ai-insights" class="nav-item">AI Insights</a>
+        <a href="#chat" class="nav-item">Chat(coming soon)</a>
+      </nav>
+
+      <div class="action-area">
+        <button class="btn btn-primary login-layout-box">
+          <div class="login-gif-box">
+            <img src="login3.gif" alt="User Animation" class="logo-img">
+          </div>
+          <span>Login</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- main  -->
+   <main class="main-content">
+    <!-- hero  -->
+    <section class="hero-section">
+      <div class="hero-left">
+        <h1 class="hero-title">Expense tracking <br>with <span class="highlight-text">AI Insights.</span></h1>
+        
+        <p class="hero-description">
+          <p class="hero-description">
+            Track expenses, understand spending habits, and gain AI-powered insights to make smarter financial decisions every day.
+          </p>
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary">Get Started →</button>
+          <button class="btn btn-secondary" onclick="location.href='#workflow'"> 
+            See how it works
+          </button>
+        </div>
+      </div>
+
+      <!-- right card -->
+      <div class="hero-right">
+        <div class="viz-card">
+          <div class="viz-header">
+            <span class="viz-title"> Real-time Analytics</span>
+          </div>
+          <div class="canvas-wrapper">
+            <canvas id="analytics-canvas" width="400" height="200"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr> 
+    <section id="features" class="features-section">
+
+  <div class="section-heading">
+    <h2>Features</h2>
+    <p>Everything you need to track, analyze, and optimize your spending.</p>
+  </div>
+
+  <div class="features-grid">
+
+    <div class="feature-card">
+      <!-- <img src="expense.gif" alt="Expense Tracking" class="feature-gif"> -->
+      <h3>OCR Receipt Scanning</h3>
+      <p>Automatically extract merchant, amount, and date from uploaded receipts.</p>
+    </div>
+
+    <div class="feature-card">
+      <!-- <img src="expense.gif" alt="Expense Tracking" class="feature-gif"> -->
+      <h3>ML Categorization</h3>
+      <p>Smart classification of transactions into food, travel, shopping, and more.</p>
+    </div>
+
+    <div class="feature-card">
+      <!-- <img src="expense.gif" alt="Expense Tracking" class="feature-gif"> -->
+      <h3>Live Dashboards</h3>
+      <p>Visualize spending patterns through interactive charts and reports.</p>
+    </div>
+
+    <div class="feature-card">
+      <!-- <img src="expense.gif" alt="Expense Tracking" class="feature-gif"> -->
+      <h3>AI Forecasting</h3>
+      <p>Predict future expenses based on historical spending behavior.</p>
+    </div>
+
+    <div class="feature-card">
+      <!-- <img src="expense.gif" alt="Expense Tracking" class="feature-gif"> -->
+      <h3>Savings Recommendations</h3>
+      <p>Receive personalized suggestions to improve your financial habits.</p>
+    </div>
+
+    <div class="feature-card">
+      <!-- <img src="Cloud-sync.gif" alt="Expense Tracking" class="feature-gif"> -->
+      <h3>Cloud Sync</h3>
+      <p>Access your financial data securely across multiple devices.</p>
+    </div>
+  </div>
+</section>
+<hr>
+<!-- working -->
+ <section id="workflow" class="workflow-section">
+
+    <div class="section-heading">
+        <h2>How It Works</h2>
+        <p>Simple steps from expense entry to intelligent insights.</p>
+    </div>
+
+    <div class="workflow-grid">
+
+        <div class="workflow-card">
+            <span class="step-number">01</span>
+            <h3>Sign In</h3>
+            <p>Secure login with cloud-backed profiles.</p>
+        </div>
+
+        <div class="workflow-card">
+            <span class="step-number">02</span>
+            <h3>Add Expense</h3>
+            <p>Manually enter expenses or upload receipts.</p>
+        </div>
+
+        <div class="workflow-card">
+            <span class="step-number">03</span>
+            <h3>OCR Extract</h3>
+            <p>Tesseract extracts transaction details automatically.</p>
+        </div>
+
+        <div class="workflow-card">
+            <span class="step-number">04</span>
+            <h3>ML Categorization</h3>
+            <p>Expenses are classified into relevant categories.</p>
+        </div>
+
+        <div class="workflow-card">
+            <span class="step-number">05</span>
+            <h3>Store & Sync</h3>
+            <p>Data is securely stored and synced across devices.</p>
+        </div>
+
+        <div class="workflow-card">
+            <span class="step-number">06</span>
+            <h3>AI Insights</h3>
+            <p>Generate forecasts, trends, and savings recommendations.</p>
+        </div>
+    </div>
+</section>
+<hr>
+
+<section id="ai-insights" class="ai-section">
+    <div class="section-heading">
+        <h2>AI-Powered Insights</h2>
+        <p>
+            Transform expense data into actionable financial intelligence.
+        </p>
+    </div>
+
+    <div class="ai-grid">
+
+        <div class="ai-card">
+            <h3>Spending Pattern Analysis</h3>
+            <p>
+                Analyze spending behavior and identify trends across different expense categories.
+            </p>
+        </div>
+
+        <div class="ai-card">
+            <h3>Expense Forecasting</h3>
+            <p>
+                Predict upcoming expenses using historical transaction data and spending habits.
+            </p>
+        </div>
+
+        <div class="ai-card">
+            <h3>Smart Budget Suggestions</h3>
+            <p>
+                Receive personalized budgeting recommendations to manage finances more effectively.
+            </p>
+        </div>
+
+        <div class="ai-card">
+            <h3>Savings Opportunities</h3>
+            <p>
+                Discover areas where spending can be reduced and improve overall savings potential.
+            </p>
+        </div>
+
+        <div class="ai-card">
+            <h3>Category Insights</h3>
+            <p>
+                Compare expenses across categories and understand where most of your money is spent.
+            </p>
+        </div>
+
+        <div class="ai-card">
+            <h3>Financial Health Score</h3>
+            <p>
+                Get an overall assessment of spending habits and financial management performance.
+            </p>
+        </div>
+    </div>
+</section>
+
+   </main>
+     <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
